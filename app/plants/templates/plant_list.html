@@ -3,7 +3,7 @@
   {% for plant in all_plants %}
     <li style=
       {% if plant.watered_today %}"color:green;"{% else %}"color:red;"{% endif %}>
-      {{ plant.name }}
+      <a href="/plant/{{plant.id}}/">{{ plant.name }}</a>
       <a href="/water/new/{{plant.id}}">Add Water</a>
       <a href="/plants/delete/{{plant.id}}/">X</a>
     </li>

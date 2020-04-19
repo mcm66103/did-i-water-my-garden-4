@@ -11,6 +11,12 @@ def plant_list(request):
     }
     return render(request, 'plant_list.html', context)
 
+def plant_detail(request, id=None):
+    context = {
+        "plant": Plant.objects.get(id=id)
+    }
+    return render(request, 'plant_detail.html', context)
+
 def new_plant(request):
     if request.method == 'POST':
         new_plant_form = PlantForm(data=request.POST.copy())
