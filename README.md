@@ -16,5 +16,5 @@ run dev runserver
 `python manage.py runserver`
 
 ## Tutorial Series
-last: [tutorial pt. 3](https://read.maverickmoore.com/learn-django-tutorial-startproject/)
+last: [tutorial pt. 3](https://read.maverickmoore.com/learn-django-tutorial-models/)
 next: [tutorial pt. 5](https://read.maverickmoore.com/learn-django-tutorial-accounts/)
